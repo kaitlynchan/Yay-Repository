@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset = "utf-8">
+	<title>WhiteBlueRed*2vsBlack</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='processing.min.js'>
+</script>
+
+<script>
+	$(document).ready(function() {
+		$("input").change(function(){		
+			if ($("#checkbox-v-2a").is(":checked")) 
+			{ $("#checkbox-v-2a-display").show();
+			}
+			else {$("#checkbox-v-2a-display").hide();
+				}
+
+			if ($("#checkbox-v-2b").is(":checked"))
+			{ $("#checkbox-v-2b-display").show();
+			}
+			else {$("#checkbox-v-2b-display").hide();
+			}
+			
+		    if ($("#checkbox-v-2c").is(":checked"))
+			{ $("#checkbox-v-2c-display").show();
+			}
+			else{ $("#checkbox-v-2c-display").hide();
+			}
+	
+			if ($("#checkbox-v-2d").is(":checked"))
+			{ $("#checkbox-v-2d-display").show();
+			}
+			else{ $("#checkbox-v-2d-display").hide();
+			}
+
+			if ($("#checkbox-v-2e").is(":checked"))
+			{ $("#checkbox-v-2e-display").show();
+			}
+			else{ $("#checkbox-v-2e-display").hide();
+			}
+
+
+			if ($("#checkbox-v-2f").is(":checked"))
+			{ $("#checkbox-v-2f-display").show();
+			}
+			else{ $("#checkbox-v-2f-display").hide();
+			}
+
+			if ($("#checkbox-v-2g").is(":checked"))
+			{ $("#checkbox-v-2g-display").show();
+			}
+			else{ $("#checkbox-v-2g-display").hide();
+			}
+
+			if ($("#checkbox-v-2h").is(":checked"))
+			{ $("#checkbox-v-2h-display").show();
+			}
+			else{ $("#checkbox-v-2h-display").hide();
+			};
+		});
+	});
+</script>
+
+<style>
+	.checkboxdisplay {
+		display: none;
+	}
+</style>
+
+</head>
+
+<body>
+
+<div data-role="page" id = "KeepCalmAndMakeTea">
+
+	<div data-role="header">
+		<h1><strong><FONT color="CadetBlue"><BIG><font-family= "Courier">Library Basement</FONT></BIG></FONT></strong></h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<p>
+
+	<form>
+    <fieldset data-role="controlgroup">
+        <legend>What do you want to read?:</legend>
+        <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+        <label for="checkbox-v-2a">Mystery</label>
+        <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+        <label for="checkbox-v-2b">Romance</label>
+        <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+        <label for="checkbox-v-2c">Fantasy</label>
+        <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+        <label for="checkbox-v-2d">Science Fiction</label>
+    </fieldset>
+	</form>
+	<a href = "#323x4"><button class="ui-btn ui-corner-all">Next</button></a>
+	</p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Thanks for using this app by JazzyThe1412Fan!</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id = "323x4">
+
+	<div data-role="header">
+		<h1><strong><FONT color="CadetBlue"><BIG>Library Basement</BIG></FONT></strong></h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<p>
+
+	<form>
+    <fieldset data-role="controlgroup">
+        <legend>What do you want to read?:</legend>
+        <input type="checkbox" name="checkbox-v-2e" id="checkbox-v-2e">
+        <label for="checkbox-v-2e">Manga</label>
+        <input type="checkbox" name="checkbox-v-2f" id="checkbox-v-2f">
+        <label for="checkbox-v-2f">Non-Fiction</label>
+        <input type="checkbox" name="checkbox-v-2g" id="checkbox-v-2g">
+        <label for="checkbox-v-2g">Historical Fiction</label>
+        <input type="checkbox" name="checkbox-v-2h" id="checkbox-v-2h">
+        <label for="checkbox-v-2h">Classics</label>
+    </fieldset>
+	</form>
+	<a href = "#JokerAndQueen"><button class="ui-btn ui-corner-all">Next</button></a>
+	</p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Thanks for using this app by JazzyThe1412Fan!</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id = "JokerAndQueen">
+
+	<div data-role="header">
+		<h1><strong><FONT color="CadetBlue"><BIG>Library Basement</BIG></FONT></strong></h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+
+	<div class = "checkboxdisplay" id="checkbox-v-2a-display">
+	<p><strong>Mystery:</strong></p>
+<p>Murder on the Orient Express</p>
+<p>The Hound of the Baskervilles</p>
+<p>The Sky Phantom</p>
+<p>The Maltese Falcon</p>
+</div>
+	
+	<div class = "checkboxdisplay" id="checkbox-v-2b-display">	
+	<p><strong>Romance:</strong></p>
+<p>Prince of Shadows</p>
+<p>The Selection</p>
+<p>Cinders and Sapphires</p>
+<p>The Girl in the Steel Corset</p>
+</div>
+
+	<div class = "checkboxdisplay" id="checkbox-v-2c-display">
+	<p><strong>Fantasy:</strong></p>
+<p>Enchanted</p>
+<p>Alanna: The First Adventure</p>
+<p>Howl's Moving Castle</p>
+<p>Graceling</p>
+</div>
+
+<div class = "checkboxdisplay" id="checkbox-v-2d-display">
+	<p><strong>Science Fiction:</strong></p>
+<p>Agatha Heterodyne and the Airship City</p>
+<p>Maximum Ride</p>
+<p>Ender’s Game</p>
+<p>Virals</p>
+<p>The Friday Society</p>
+</div>
+
+<div class = "checkboxdisplay" id="checkbox-v-2e-display">
+	<p><strong>Manga:</strong></p>
+<p>Detective Conan</p>
+<p>Magic Kaito</p>
+<p>Fullmetal Alchemist</p>
+<p>Hetalia</p>
+</div>
+
+<div class = "checkboxdisplay" id="checkbox-v-2f-display">
+	<p><strong>History:</strong></p>
+<p>The Diary of a Young Girl</p>
+<p>Into Thin Air</p>
+<p>Killing Lincoln</p>
+<p>Richard III</p>
+</div>
+
+<div class = "checkboxdisplay" id="checkbox-v-2g-display">
+	<p><strong>Historical Fiction:</strong></p>
+<p>Thirteenth Child</p>
+<p>Sorcery and Cecilia</p>
+<p>The Book Thief</p>
+<p>Outlander</p>
+</div>
+
+<div class = "checkboxdisplay" id="checkbox-v-2h-display">
+	p><strong>Classics:</strong></p>
+<p>The Merchant of Venice</p>
+<p>Jane Eyre</p>
+<p>Oliver</p>
+<p>Emma</p>
+</div>
+
+		<a href = "#JokerAndQueen"><button class="ui-btn ui-corner-all">Next</button></a>
+		
+	<div data-role ="footer">
+		<h4>Thanks for using this app by JazzyThe1412Fan!</h4>
+	</div><!-- /footer -->
+
+</div><!-- /page -->
+</div>
+
+</body>
+</html>
